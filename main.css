@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Tungsten Book';
+    src: url('Tungsten-Book.woff2') format('woff2'),
+        url('Tungsten-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten Light';
+    src: url('Tungsten-Light.woff2') format('woff2'),
+        url('Tungsten-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.MAIN {
+    border-radius: 0.5rem;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+}
+
+.LOGO { width: 50% !important; }
+
+body {
+    background: url(bg.jpg) center/cover no-repeat fixed;
+    font-family: "Tungsten Book" !important;
+    min-height: 100vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white !important;
+}
+
+h1, strong { font-family: "Tungsten Book" !important; }
+
+h2, h3, h4, h5, h6, p {
+    font-family: "Tungsten Light" !important;
+}
+
+#VALORANTEMAIL, #VALORANTREGION {
+    font-weight: bold;
+    text-align-last: center;
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0,0,0,0.25) !important;
+    color: white !important;
+    border: 2px solid rgba(255,255,255,1);
+}
+
+option {
+    background-color: black !important;
+}
+
+option[value=""] {
+    color: rgba(255,255,255,1) !important;
+}
+
+.btn-lg {
+    border: 2px solid rgba(255,255,255,1) !important;
+    color: white !important;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.25rem !important;
+    background: rgba(0,0,0,0.5) !important;
+}
+
+#VALORANTEMAIL::placeholder {
+    color: rgba(255,255,255,1) !important;
+}
+
+.TLIGHT { font-family: "Tungsten Light" !important; }
+
+.TBOOK { font-family: "Tungsten Book" !important; }
+
+h1 { font-size: 2.75rem; }
+
+.RED { color: #f74150 !important; }
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-bottom: -2rem;
+    margin-top: -1rem;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 49.5px;
+    width: 19.5px;
+    height: 19.5px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 12px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 12px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 48px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 84px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
+.HV, .S2 { display: none; }
+
+@media (min-width: 768px) {
+
+    .LOGO {
+        width: 37.5% !important;
+    }
+
+    h1 { font-size: 3rem; }
+
+    #VALORANTEMAIL {
+        font-size: 1.75rem;
+    }
+
+    .form-control, .btn {
+        width: 75% !important;
+        margin: auto !important;
+    }
+
+}
