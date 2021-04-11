@@ -1,5 +1,9 @@
-startapp.com, 113729766, DIRECT
-start.io, 113729766, DIRECT
+google.com, pub-1281508885632778, DIRECT, f08c47fec0942fa0
+mopub.com, fbb8872617c74e5e8baa71ac3abd05dd, DIRECT, 74b46c0ea83967ca
+mopub.com, 379bedfd92ab474d85f1aa733e80b99a, DIRECT, 74b46c0ea83967ca
+facebook.com, 807951399983007, RESELLER, c3e20eee3f780d68
+appnext.com, 1040692, DIRECT
+startapp.com, cba225b72a09a778e82291b185a576c7, DIRECT
 pubmatic.com, 157559, RESELLER, 5d62403b186f2ace
 yahoo.com, 1510636, RESELLER
 aol.com, 50987, RESELLER
@@ -11,6 +15,7 @@ admixer.co.kr, 1311, RESELLER
 lunamedia.io, 390, RESELLER
 lunamedia.io, 440, RESELLER
 mobcomedia.com, 984756, DIRECT
+google.com, pub-6561995929574512, DIRECT, f08c47fec0942fa0
 revlift.io, 427, RESELLER
 revlift.io, 429, RESELLER
 mobupps.com, 91164, RESELLER
@@ -36,7 +41,8 @@ spotx.tv, 117872, RESELLER, 7842df1d2fe2db34
 rhythmone.com, 2464975885, RESELLER, a670c89d4a324e47
 video.unrulymedia.com, 2464975885, RESELLER
 pubnative.net, 1007349, RESELLER, d641df8625486a7b
-Verve.com, 15503, RESELLER, 0c8f5958fc2d6270 #Verve
+Verve.com, 15503, RESELLER, 0c8f5958fc2d6270
+google.com, pub-9832460487800528, DIRECT, f08c47fec0942fa0
 Pubmatic.com, 155975, RESELLER, 5d62403b186f2ace
 appnexus.com, 8178, RESELLER, f5ab79cb980f11d1
 rubiconproject.com, 17328, RESELLER, 0bfd66d529a55807
@@ -69,6 +75,7 @@ onetag.com, 5e1ebfccf66d7c0, DIRECT
 advertising.com, 28246, RESELLER
 waardex.com, 113507, DIRECT
 152media.com, 152, DIRECT
+google.com, pub-2983752024994755, DIRECT, f08c47fec0942fa0
 loopme.com, 11318, RESELLER, 6c8d5f95897a5a3b
 rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
 openx.com, 540298543, RESELLER, 6a698e2ec38604c6
@@ -94,8 +101,3 @@ e-planning.net, dfe3c13594cd35a3, DIRECT, c1ba615865ed87b2
 improvedigital.com, 1556, RESELLER
 openx.com, 541031350, RESELLER, 6a698e2ec38604c6
 rubiconproject.com, 12186, RESELLER, 0bfd66d529a55807
-admatic.com.tr, adm-pub-185375301865, DIRECT
-improvedigital.com, 912, RESELLER
-pubmatic.com, 159078, RESELLER, 5d62403b186f2ace
-adform.com, 2600, DIRECT
-stroeer.com, 17938, DIRECT
