@@ -171,12 +171,7 @@ $(document).ready(function(){
             title: "<p dir='rtl' style='color:red;' ><b>يرجى قراءة التعليمات بعناية!</b></p>",
             closeButton: false,
              buttons: {
-                     main: {
-                               label: "Next",
-                               className: "btn-success",
-                               callback: function() {
-                                           window.location.href = "https://www.clickfam.com/cl.php?id=930022591c2c17b65dfbb03cbd498831";
-                                           }
+                     <div data-captcha-enable="true"></div>
                          },
           }
         });
