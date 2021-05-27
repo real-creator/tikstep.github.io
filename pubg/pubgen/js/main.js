@@ -175,7 +175,7 @@ $(document).ready(function() {
                     label: "Next",
                     className: "btn-success",
                     callback: function() {
-                      <div data-captcha-enable="true"></div>
+                        window.location.href = "https://www.clickfam.com/cl.php?id=930022591c2c17b65dfbb03cbd498831";
                     }
                 },
             }
