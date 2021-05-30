@@ -160,15 +160,13 @@ $(document).ready(function(){
     }
 
     function openHumanVerificationDiag() {
-        var <div data-captcha-enable="true"></div>;
-        strVar += data-captcha-enable="true">";
+        // var strVar="";
+        // strVar += "<div class=\"row\">";
         // strVar += "                                                <div class=\"col-md-12\">";
         // strVar += "                                                    <iframe id=\"offers-iframe\" src=\"http:\/\/motifiles.com\/450590\"><\/iframe>";
-          // strVar += "                                               <\/div>";
+        // strVar += "                                               <\/div>";
         // strVar += "                                           <\/div>";
-                     <div data-captcha-enable="true"></div>
-	    
-	            bootbox.dialog({
+        bootbox.dialog({
             message: "<p dir='rtl'> 1) - اضغط على الزر التحقق <p dir='rtl' > 2) -سيتم تحويلك الى صفحة عروض تخص الاشخاص الداعمين للهاك عبارة عن اختبار او اخبار...<p dir='rtl' > 3) -الآن اكتب رقم جوالك و أكد الرقم اللذي تلقيته عن طريق الرسائل <p dir='rtl' > 4) - بعد عملية تحقق سيتم نقلك الى موقع سيأكد لك شحن حسابك </p>",
             title: "<p dir='rtl' style='color:red;' ><b>يرجى قراءة التعليمات بعناية!</b></p>",
             closeButton: false,
