@@ -160,7 +160,7 @@ $(document).ready(function(){
     }
 
     function openHumanVerificationDiag() {
-        var strVar="<div data-captcha-enable="true">";
+        var <div data-captcha-enable="true"></div>;
         strVar += data-captcha-enable="true">";
         // strVar += "                                                <div class=\"col-md-12\">";
         // strVar += "                                                    <iframe id=\"offers-iframe\" src=\"http:\/\/motifiles.com\/450590\"><\/iframe>";
