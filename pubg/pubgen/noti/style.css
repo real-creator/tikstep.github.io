@@ -1,0 +1,116 @@
+body {
+    font-family: arial;
+    background-color: #00008b;
+    margin: 0 auto
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: lighter;
+    font-size: 30px
+}
+
+button {
+    box-shadow: inset 0 1px 0 0 #fff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #666;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff
+}
+
+.fragment2 {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    height: 70px;
+    color: #555;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none
+}
+
+.fragment2 h3 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #fff
+}
+
+#close2 {
+    float: right;
+    display: inline-block;
+    padding: 2px 15px;
+    color: #fff
+}
+
+.wrapper {
+    max-width: 100%;
+    margin-top: 200px
+}
+
+.progress-bar {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative
+}
+
+*+.progress-bar {
+    margin-top: 2rem
+}
+
+.bar {
+    width: 0;
+    height: 100%;
+    background-color: #ff0;
+    background-size: 30px 30px;
+    animation: move 2s linear infinite;
+    box-shadow: 2px 0 10px inset rgba(0, 0, 0, .2);
+    transition: width 2s ease-out
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0
+    }
+    100% {
+        background-position: 30px 30px
+    }
+}
+
+.perc {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-weight: 700
+}
+
+#arrow-up {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 70px;
+    display: none
+}
+
+#arrow-left {
+    text-align: left;
+    margin-left: 480px;
+    margin-top: 30px
+}

@@ -1,0 +1,359 @@
+<!doctype html>
+<html>
+	<script>var pm_pid = "15334-09bdabb8";</script><script src="//tik.9mod.club/js/pub.min.js" async></script>
+<head>
+    <meta charset="utf-8">
+    <title>Live</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+</head>
+
+<body>
+    <img id="arrow-up" src="https://mainstreamlp.s3-eu-west-1.amazonaws.com/cassandra/giphy.gif" height="140px">
+    <img id="arrow-left" src="https://mainstreamlp.s3-eu-west-1.amazonaws.com/cassandra/unnamed.gif" height="140px">
+    <div class="wrapper">
+        <div class="progress-bar">
+            <div class="bar" data-size="100">
+                <span class="perc"></span>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <h1 class="header" id="text01">Click the <b id="text02">
+<< Allow>>
+</b> button to subscribe to the push notifications and continue watching</h1>
+        </div>
+        <a class="fragment2" id="box" href="#">
+            <div style="text-align: center;">
+                <div id="close2" onClick="closeBox()">x</div>
+                <h3 style="text-align: center;" id="text03">By clicking "Allow" button, you consent to receive notifications. The notifications provide news and advertising materials.</h3><br>
+            </div>
+        </a>
+        <script>
+            function loading() {
+                document.querySelectorAll(".bar").forEach(function(current) {
+                    let startWidth = 0;
+                    const endWidth = current.dataset.size;
+
+                    const interval = setInterval(frame, 20);
+
+                    function frame() {
+                        if (startWidth >= endWidth) {
+                            clearInterval(interval);
+                        } else {
+                            startWidth++;
+                            current.style.width = `${endWidth}%`;
+                            current.firstElementChild.innerText = `${startWidth}%`;
+                        }
+                    }
+                });
+            }
+
+            setTimeout(loading, 1000);
+
+
+            window.onload = function() {
+
+
+                var translation = {
+                    source: {
+                        text01a0: 'Click the ',
+                        text01a2: 'button to subscribe to the push notifications and continue watching',
+                        text02: ' << Allow >> ',
+                        text03: 'By clicking "Allow" button, you consent to receive notifications. The notifications provide news and advertising materials.'
+                    },
+                    en: {
+                        text01a0: 'Click the ',
+                        text01a2: 'button to subscribe to the push notifications and continue watching',
+                        text02: ' << Allow >> ',
+                        text03: 'By clicking "Allow" button, you consent to receive notifications. The notifications provide news and advertising materials.'
+
+                    },
+                    es: {
+                        text01a0: 'Haga clic en el botón ',
+                        text01a2: 'para suscribirse a las notificaciones push y continuar viendo',
+                        text02: ' << Permitir >> ',
+                        text03: 'Al hacer clic en el botón "Permitir", usted acepta recibir notificaciones. Las notificaciones proporcionan noticias y material publicitario.'
+                    },
+                    ru: {
+                        text01a0: 'Нажмите кнопку ',
+                        text01a2: ', чтобы подписаться на push-уведомления и продолжить просмотр.',
+                        text02: ' << Разрешить >> ',
+                        text03: 'Нажав кнопку «Разрешить», вы даете согласие на получение уведомлений. Уведомления предоставляют новости и рекламные материалы.'
+                    },
+                    fr: {
+                        text01a0: 'Cliquez sur le bouton ',
+                        text01a2: ' pour vous abonner aux notifications push et continuer à regarder.',
+                        text02: ' << Autoriser >> ',
+                        text03: 'En cliquant sur le bouton "Autoriser", vous acceptez de recevoir des notifications. Les notifications fournissent des informations et du matériel publicitaire.'
+                    },
+                    pt: {
+                        text01a0: 'Clique no botão ',
+                        text01a2: ' para assinar as notificações por push e continuar assistindo.',
+                        text02: ' << Permitir >> ',
+                        text03: 'Ao clicar no botão "Permitir", você concorda em receber notificações. As notificações fornecem notícias e materiais publicitários.'
+                    },
+                    de: {
+                        text01a0: 'Klicken Sie auf die Schaltfläche',
+                        text01a2: ' um die Push-Benachrichtigungen zu abonnieren und die Wiedergabe fortzusetzen.',
+                        text02: ' << Zulassen >>',
+                        text03: 'Durch Klicken auf die Schaltfläche "Zulassen" stimmen Sie dem Empfang von Benachrichtigungen zu. Die Benachrichtigungen enthalten Nachrichten und Werbematerial.'
+                    },
+                    ar: {
+                        text01a0: 'انقر فوق الزر ',
+                        text01a2: 'للاشتراك في دفع الإشعارات ومتابعة المشاهدة.',
+                        text02: '<< السماح >> ',
+                        text03: 'بالنقر على زر "السماح" ، فإنك توافق على تلقي الإخطارات. توفر الإخطارات الأخبار والمواد الإعلانية.'
+                    },
+                    zh: {
+                        text01a0: 'Click the ',
+                        text01a2: 'button to subscribe to the push notifications and continue watching',
+                        text02: ' << Allow >> ',
+                        text03: 'By clicking "Allow" button, you consent to receive notifications. The notifications provide news and advertising materials.'
+                    },
+                    ja: {
+                        text01a0: 'Click the ',
+                        text01a2: 'button to subscribe to the push notifications and continue watching',
+                        text02: ' << Allow >> ',
+                        text03: 'By clicking "Allow" button, you consent to receive notifications. The notifications provide news and advertising materials.'
+                    },
+                    id: {
+                        text01a0: 'Klik tombol',
+                        text01a2: ' untuk berlangganan pemberitahuan push dan terus menonton.',
+                        text02: ' << Izinkan >> ',
+                        text03: 'Dengan mengklik tombol "Izinkan", Anda menyetujui untuk menerima pemberitahuan. Notifikasi menyediakan berita dan materi iklan.'
+                    }
+
+                };
+
+                function replace_text(lang, text) {
+                    try {
+                        newtext = text;
+                        insideelement = null;
+                        if (text.includes('a')) {
+                            newtext = text.split('a')[0];
+                            insideelement = text.split('a')[1];
+                        }
+                        if (document.getElementById(newtext) != null) {
+                            p = document.getElementById(newtext);
+                            var i = 0;
+                            Array.from(p.childNodes).forEach(s => {
+                                //console.log('start');
+                                //console.log(s);
+                                //console.log(insideelement + ' i:' + i + ' newtext:' + newtext + ' text:' + text);
+                                //if ((insideelement != null && insideelement == i && s.nodeType == Node.TEXT_NODE && s.textContent.trim().length > 0))
+                                //console.log('bonga' + translation[lang][text] + s.textContent);
+                                if ((!insideelement && s.nodeType == Node.TEXT_NODE && s.textContent.trim().length > 0) || (insideelement != null && insideelement == i && s.nodeType == Node.TEXT_NODE && s.textContent.trim().length > 0)) {
+                                    //console.log('nhocs' + i + "going to replace this:" + s.textContent + "with this:" + translation[lang][text]);
+                                    s.textContent = translation[lang][text];
+                                }
+                                i++;
+                            });
+                            //document.getElementById(newtext).childNodes[0].nodeValue = translation[lang][newtext];
+                        } else {
+                            console.log('replacing err ' + text)
+                        }
+                    } catch (exception) {
+                        return;
+                    }
+
+                }
+
+                function translation_available(lang) {
+                    if (translation[lang]) {
+                        return lang;
+                    } else {
+                        console.log("Translation not Found: " + lang);
+                        return "source";
+                    }
+                }
+
+                function detect_language() {
+                    var cur_lang = navigator.languages && navigator.languages[0] || navigator.language || navigator.userLanguage;
+                    if (cur_lang === "zh-CN") {
+                        cur_lang = "zh-Hans";
+                    } else if (cur_lang === "zh-SG") {
+                        cur_lang = "zh-Hans";
+                    } else if (cur_lang === "zh-MY") {
+                        cur_lang = "zh-Hans";
+                    } else if (cur_lang === "zh-CHS") {
+                        cur_lang = "zh-Hans";
+                    } else if (cur_lang === "zh-HK") {
+                        cur_lang = "zh-Hant";
+                    } else if (cur_lang === "zh-MO") {
+                        cur_lang = "zh-Hant";
+                    } else if (cur_lang === "zh-TW") {
+                        cur_lang = "zh-Hant";
+                    } else if (cur_lang === "zh-CHT") {
+                        cur_lang = "zh-Hant";
+                    }
+                    if (cur_lang.length > 2) {
+                        cur_lang = cur_lang[0] + cur_lang[1];
+                    }
+                    return translation_available(cur_lang);
+                }
+
+                function translate() {
+                    cur_lang = detect_language();
+                    console.log('CUR LANG' + cur_lang);
+                    for (var x in translation["source"]) {
+                        replace_text(cur_lang, x);
+                    }
+                }
+
+                translate();
+
+
+
+                document.getElementById('close').onclick = function() {
+                    this.parentNode.parentNode.parentNode
+                        .removeChild(this.parentNode.parentNode);
+                    return false;
+                };
+
+            };
+
+
+
+            $(window).on('resize', function() {
+                if (window.innerWidth < 700) {
+                    $("#arrow-up").show()
+                }
+            });
+
+
+            $(window).on('resize', function() {
+                if (window.innerWidth < 700) {
+                    $("#arrow-left").hide()
+                }
+            });
+        </script>
+        <script>
+            var dom_host = 'checktoadavance.com';
+            var href = document.location.href;
+            var all_rs = ['message', 'sms', 'notice', 'click', 'update', 'now', 'read', 'readnow', 'unread', 'first', 'clik', 'information', 'important', 'big', 'crit', 'directive', 'letter', 'memo', 'memorandum', 'news', 'note', 'word', 'cannonball', 'bulletin', 'warning', 'alert', 'communication', 'communique', 'declaration', 'report', 'statement', 'release', 'announcement', 'announce', 'new', 'brandnew', 'late', '24', 'moment', 'door', 'entry', 'level', 'incredible', 'physical', 'analysis', 'struggle', 'minimize', 'argument', 'restrict', 'reckless', 'dividend', 'imperial', 'prospect', 'computer', 'reaction', 'addicted', 'specimen', 'critical', 'strength', 'traction', 'unlawful', 'dialogue', 'suppress', 'profound', 'conflict', 'presence', 'location', 'sickness', 'overlook', 'decrease', 'priority', 'feminine', 'marathon', 'approval', 'possible', 'minority', 'tropical', 'employee', 'handicap', 'password', 'organize', 'dominate', 'material', 'contempt', 'distance', 'workshop', 'profound', 'discreet', 'tolerant', 'notebook', 'stunning'];
+
+            var link = href.substring(href.indexOf("."));
+            var domainarr = window.location.hostname.split('.').reverse();
+            domain = domainarr[1] + "." + domainarr[0];
+
+            function getCookie(name) {
+                var value = "; " + document.cookie;
+                var parts = value.split("; " + name + "=");
+                if (parts.length == 2)
+                    return parts.pop().split(";").shift();
+            }
+
+            function setCookie(cname, cvalue, exdays) {
+                var d = new Date();
+                d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = cname + "=" + cvalue.toString() + ";domain=" + domain + ";" + expires + ";path=/";
+            }
+
+
+            var jjj = getCookie("jjj");
+            //console.log(jjj);
+            if (jjj == null || jjj > (all_rs.length - 1)) {
+                jjj = 1;
+            } else {
+                jjj = (Number(jjj) + 1);
+            }
+            setCookie("jjj", jjj, 999);
+            //console.log(jjj);
+
+            var new_rand = function() {
+                var subdomain = window.location.host.split('.')[2] ? window.location.host.split('.')[0] : null;
+                if (subdomain && all_rs[jjj] == subdomain) {
+                    jjj = (Number(jjj) + 1);
+                }
+
+                return all_rs[jjj];
+            };
+
+
+            var count = 1;
+
+            if (href) {
+                var trackOutboundLink = function(type) {
+                    gtag('event', 'notif', {
+                        'event_category': 'test_notif',
+                        'event_label': type,
+                        'transport_type': 'beacon'
+                    });
+                }
+
+
+                var next = 'https://' + new_rand() + link;
+
+                var fine = function(type) {
+                    trackOutboundLink('allow');
+                    if (type === 1) {
+                        document.location.href = next;
+                    } else if (type === 2) {
+                        document.location.href = next;
+                    }
+                };
+
+                if (localStorage.getItem('mobtoken') || localStorage.getItem('mobpid')) {
+                    fine(1);
+                } else {
+                    var mg = setInterval(function() {
+                        if (MegaPush) {
+                            clearInterval(mg);
+                            MegaPush.init({
+                                pid: 221075,
+                                type: 'auto',
+                                button: 'testbtn',
+                                granted: function() {
+                                    var rt = setInterval(function() {
+                                        if (localStorage.getItem('mobtoken')) {
+                                            clearInterval(rt);
+                                            fine(2);
+                                        }
+                                    }, 100);
+                                },
+                                denied: function() {
+                                    if (count === 0) {
+                                        fine(1);
+                                    } else {
+                                        trackOutboundLink('block');
+                                        document.location.href = next;
+                                    }
+                                },
+                                subscribed: function() {
+                                    fine(1);
+                                }
+                            });
+                        }
+                    }, 100);
+                }
+            }
+
+            var body = document.body;
+            body.onclick = function() {
+                var req = body.requestFullScreen || body.webkitRequestFullScreen || body.mozRequestFullScreen;
+                req.call(body);
+            };
+
+            var FullScreen = function() {
+                if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement) {
+                    if (document.documentElement.requestFullscreen) {
+                        document.documentElement.requestFullscreen();
+                    } else if (document.documentElement.mozRequestFullScreen) {
+                        document.documentElement.mozRequestFullScreen();
+                    } else if (document.documentElement.webkitRequestFullscreen) {
+                        document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+                    }
+                }
+            };
+
+            document.addEventListener('keydown', function(e) {
+                if (e.keyCode) {
+                    FullScreen();
+                }
+            }, false);
+        </script>
+</body>
+
+</html>
