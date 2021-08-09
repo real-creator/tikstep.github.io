@@ -1,0 +1,10 @@
+jQuery(document).ready(function($){
+
+	$.getScript('https://ssl.geoplugin.net/javascript.gp?k=5d8abb07c59ff517', function(){
+		var ip = geoplugin_request();
+		var country = geoplugin_countryName();
+		$('#ip').html(ip);
+		$('#country').html(country);
+	});
+
+});
