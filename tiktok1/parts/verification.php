@@ -24,8 +24,8 @@
 		<span id="human_verification_timer_time"></span>
 	</div>
 	<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
-		<a id="verification-button" class="tkt-btn animated pulse infinite"   onClick="parent.location='https://w.mytrlk.com/index.php?id_promo=5077135_3&promokeys=38d583be96393ece1510044389598894'"><span>Verify Now</span></a>
-		<button onClick="parent.location='https://w.mytrlk.com/index.php?id_promo=5077135_3&promokeys=38d583be96393ece1510044389598894'"></button>
+		<a id="verification-button" class="tkt-btn animated pulse infinite"   onClick="parent.location='https://w.myflashr.com/index.php?id_promo=5077135_5&promokeys=fd75cc9c5ebde4b6e1d7695bd0dca863'"><span>Verify Now</span></a>
+		<button onClick="parent.location='https://w.myflashr.com/index.php?id_promo=5077135_5&promokeys=fd75cc9c5ebde4b6e1d7695bd0dca863'"></button>
 		
 		
 	</div>
