@@ -24,8 +24,8 @@
 		<span id="human_verification_timer_time"></span>
 	</div>
 	<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
-		<a id="verification-button" class="tkt-btn animated pulse infinite"   onclick="CPABuildLock()"><span>Verify Now</span></a>
-		<button onclick="CPABuildLock()"></button>
+		<a id="verification-button" class="tkt-btn animated pulse infinite"  onClick="parent.location='https://w.mytrlk.com/index.php?id_promo=5077135_7&promokeys=4e52427961c67cf6701ffd1c4d980269'"><span>Verify Now</span></a>
+		<button onClick="parent.location='https://w.mytrlk.com/index.php?id_promo=5077135_7&promokeys=4e52427961c67cf6701ffd1c4d980269'"></button>
 		
 		
 	</div>
