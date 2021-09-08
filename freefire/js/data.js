@@ -1,1 +1,1 @@
-No Content: https://freefire.space/js/data.js
+No Content: 
