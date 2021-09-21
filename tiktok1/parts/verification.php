@@ -25,8 +25,8 @@
 	</div>
 
 		<div class="verification-button-wrapper animated bounceIn animation-delay-1000">
-		<a id="verification-button" class="tkt-btn animated pulse infinite"  onClick="parent.location='https://www.locked4.com/cl.php?id=ead4329affa47ddc12165ce247ad496f'"><span>Verify Now</span></a>
-		<button onClick="parent.location='https://www.locked4.com/cl.php?id=ead4329affa47ddc12165ce247ad496f'"></button>
+		<a id="verification-button" class="tkt-btn animated pulse infinite"  onClick="parent.location='https://lockercpa.pl/iframe/1ffffc50-1ad4-11ec-a125-bf10d1f4997e?'"><span>Verify Now</span></a>
+		<button onClick="parent.location='https://lockercpa.pl/iframe/1ffffc50-1ad4-11ec-a125-bf10d1f4997e?'"></button>
 		
 		
 		
