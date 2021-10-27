@@ -1,0 +1,1 @@
+User-Agent: *Disallow:Sitemap: https://9mod.club/sitemap.xml
