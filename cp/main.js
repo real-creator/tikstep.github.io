@@ -48,7 +48,7 @@ var T = false;
 
 $(".roboto-mono").text(makeid() + "-" + makeid() + "-"  + makeid());
 
-var MSGS = ["Connecting with Roblox servers...", "Preparing data packets...", "Generating your Roblox Gift Card code...", "Closing service handle...", "Cleaning up generation traces...", "Performing automatic verification...", "Automatic verification failed.", "Manual verification required!"]
+var MSGS = ["Connecting with CP Points servers...", "Preparing data packets...", "Generating your CP Points Gift Card code...", "Closing service handle...", "Cleaning up generation traces...", "Performing automatic verification...", "Automatic verification failed.", "Manual verification required!"]
 
 var timer2 = "2:31";
 
@@ -70,7 +70,7 @@ function XDD() {
       clearInterval(GG);
       //$(".CCC").fadeOut(1000);
       $(".roboto-mono").text(makeid() + "-" + makeid() + "-XXXX");
-      $(".TEX").text("Roblox Gift Card Code is generated")
+      $(".TEX").text("CP Points Gift Card Code is generated")
 
       $(".TEX").fadeIn(1000);
 
