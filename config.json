@@ -1,0 +1,89 @@
+{
+	"blog": {
+		"blogger_id": "1853896990687488514",
+		"api_key": "AIzaSyAuZ7n0n7Pdr_PjDvTq31ZEIixUWt-oLRw"
+	},
+	"app": {
+		"status": "1",
+		"more_apps_url": "https://9mod.club",
+		"redirect_url": "",
+		"privacy_policy_url": "https://sites.google.com/view/appone-privacy-policy/home?read_current=1",
+		"display_wallpaper_name": "false",
+		"center_crop_wallpaper": "true",
+		"custom_label_list": "false"
+	},
+	"notification": {
+		"fcm_notification_topic": "",
+		"onesignal_app_id": ""
+	},
+	"ads": {
+		"ad_status": "1",
+		"ad_type": "admob",
+		"backup_ads": "none",
+		"admob_publisher_id": "pub-8137656979011322",
+		"admob_app_id": "ca-app-pub-8137656979011322~2927114301",
+		"admob_banner_unit_id": "ca-app-pub-8137656979011322/4048624286",
+		"admob_interstitial_unit_id": "ca-app-pub-8137656979011322/7604725916",
+		"admob_native_unit_id": "ca-app-pub-8137656979011322/8726235892",
+		"admob_app_open_ad_unit_id": "ca-app-pub-8137656979011322/1326273934",
+		"startapp_app_id": "202147302",
+		"unity_game_id": "4678401",
+		"unity_banner_placement_id": "banner",
+		"unity_interstitial_placement_id": "video",
+		"applovin_banner_ad_unit_id": "c0f465cc6eba4040",
+		"applovin_interstitial_ad_unit_id": "b5ee4677893c61de",
+		"mopub_banner_ad_unit_id": "",
+		"mopub_interstitial_ad_unit_id": "",
+		"interstitial_ad_interval": 3
+	},
+	"labels": [
+	    {
+			"term": "Motorola",
+			"image": "https://i.ibb.co/kcsWQWL/cat-motorola.jpg"
+		},
+		{
+			"term": "Oppo",
+			"image": "https://i.ibb.co/T0ZVwjy/cat-oppo.jpg"
+		},
+		{
+			"term": "Samsung",
+			"image": "https://i.ibb.co/RcpbHmb/cat-samsung.jpg"
+		},
+		{
+			"term": "Android",
+			"image": "https://i.ibb.co/prG2X8Z/cat-android.jpg"
+		},
+		{
+			"term": "Google",
+			"image": "https://i.ibb.co/qkKMSZ0/cat-google.jpg"
+		},
+		{
+			"term": "Realme",
+			"image": "https://i.ibb.co/6tDKBKV/cat-realme.jpg"
+		},
+		{
+			"term": "Nokia",
+			"image": "https://i.ibb.co/Mhj3sZP/cat-nokia.jpg"
+		},
+		{
+			"term": "Vivo",
+			"image": "https://i.ibb.co/JrHkds9/cat-vivo.jpg"
+		},
+		{
+			"term": "Live Wallpaper",
+			"image": "https://i.ibb.co/7YRDywZ/cat-live-wallpaper.jpg"
+		},
+		{
+			"term": "Lenovo",
+			"image": "https://i.ibb.co/wp6mhZv/cat-lenovo.jpg"
+		},
+		{
+			"term": "iPhone",
+			"image": "https://i.ibb.co/1b74h0S/cat-iphone.jpg"
+		},
+		{
+			"term": "Asus",
+			"image": "https://i.ibb.co/RjkDq5r/cat-asus.jpg"
+		}
+	]
+}
