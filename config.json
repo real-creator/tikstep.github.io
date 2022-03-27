@@ -26,7 +26,7 @@
 		"admob_interstitial_unit_id": "ca-app-pub-8137656979011322/7604725916",
 		"admob_native_unit_id": "ca-app-pub-8137656979011322/8726235892",
 		"admob_app_open_ad_unit_id": "ca-app-pub-8137656979011322/1326273934",
-		"startapp_app_id": "202147302",
+		"startapp_app_id": "0",
 		"unity_game_id": "4678401",
 		"unity_banner_placement_id": "banner",
 		"unity_interstitial_placement_id": "video",
@@ -39,51 +39,51 @@
 	"labels": [
 	    {
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/kcsWQWL/cat-motorola.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/T0ZVwjy/cat-oppo.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/RcpbHmb/cat-samsung.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/prG2X8Z/cat-android.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/qkKMSZ0/cat-google.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/6tDKBKV/cat-realme.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/Mhj3sZP/cat-nokia.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/JrHkds9/cat-vivo.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/7YRDywZ/cat-live-wallpaper.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/wp6mhZv/cat-lenovo.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/1b74h0S/cat-iphone.jpg"
+			"image": ""
 		},
 		{
 			"term": "Lamborghini",
-			"image": "https://i.ibb.co/RjkDq5r/cat-asus.jpg"
+			"image": ""
 		}
 	]
 }
