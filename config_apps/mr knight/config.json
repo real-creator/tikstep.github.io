@@ -1,0 +1,57 @@
+{
+	"blog": {
+		"blogger_id": "5184772715567143795",
+		"api_key": "AIzaSyDiuLTtUzCGfEogOVQmevOqtpUDRZF7aPE"
+	},
+	"app": {
+		"status": "1",
+		"more_apps_url": "https://play.google.com/store/apps/developer?id=",
+		"redirect_url": "",
+		"privacy_policy_url": "https://sites.google.com/view/mr-knight-wallpaper/home",
+		"display_wallpaper_name": "false",
+		"center_crop_wallpaper": "true",
+		"custom_label_list": "false"
+	},
+	"notification": {
+		"fcm_notification_topic": "",
+		"onesignal_app_id": ""
+	},
+	"ads": {
+		"ad_status": "0",
+		"ad_type": "admob",
+		"backup_ads": "none",
+		"admob_publisher_id": "pub-8137656979011322",
+		"admob_app_id": "ca-app-pub-8137656979011322~7282183906",
+		"admob_banner_unit_id": "ca-app-pub-8137656979011322/7155897681",
+		"admob_interstitial_unit_id": "ca-app-pub-8137656979011322/8740442093",
+		"admob_native_unit_id": "ca-app-pub-8137656979011322/9333632170",
+		"admob_app_open_ad_unit_id": "ca-app-pub-8137656979011322/3488115415",
+		"startapp_app_id": "0",
+		"unity_game_id": "",
+		"unity_banner_placement_id": "banner",
+		"unity_interstitial_placement_id": "video",
+		"applovin_banner_ad_unit_id": "dec820d9755da679",
+		"applovin_interstitial_ad_unit_id": "e419f52f4269e52e",
+		"mopub_banner_ad_unit_id": "",
+		"mopub_interstitial_ad_unit_id": "",
+		"interstitial_ad_interval": 3
+	},
+				"labels": [
+				    {
+						"term": "moon knight",
+						"image": "https://i.ibb.co/tsqHJyS/ac04177b3d470861adf01b35fa367fd0.jpg"
+					},
+					{
+						"term": "Studio",
+						"image": "https://i.ibb.co/XWHVVxY/c2972377740484bdc458faef0c0f31f9.jpg"
+					},
+					{
+						"term": "Comice",
+						"image": "https://i.ibb.co/NYhS5M3/47a5d5418d515b57670e9f4a4c159a3c.jpg"
+					},
+		{
+			"term": "moon",
+			"image": "https://i.ibb.co/dWHwWZy/51d14856941e8c707be80362933705fd.jpg"
+		}
+	]
+}
