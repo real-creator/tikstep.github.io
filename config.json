@@ -34,7 +34,7 @@
 		"applovin_interstitial_ad_unit_id": "b5ee4677893c61de",
 		"mopub_banner_ad_unit_id": "0",
 		"mopub_interstitial_ad_unit_id": "0",
-		"interstitial_ad_interval": 2
+		"interstitial_ad_interval": 5
 	},
 	"labels": [
 	    {
