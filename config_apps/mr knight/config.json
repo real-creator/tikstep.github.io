@@ -10,7 +10,7 @@
 		"privacy_policy_url": "https://sites.google.com/view/mr-knight-wallpaper/home",
 		"display_wallpaper_name": "false",
 		"center_crop_wallpaper": "true",
-		"custom_label_list": "false"
+		"custom_label_list": "true"
 	},
 	"notification": {
 		"fcm_notification_topic": "",
