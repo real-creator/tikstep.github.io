@@ -1,7 +1,7 @@
 {
 	"blog": {
-		"blogger_id": "1234567890",
-		"api_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+		"blogger_id": "2106511451711010701",
+		"api_key": " AIzaSyBB6ph21a3SgC0NRdC9h6BXkLTrYnFu-5U "
 	},
 	"app": {
 		"status": "1",
@@ -24,15 +24,15 @@
 		"onesignal_app_id": "0855da51-0ba7-45dc-b790-156c615df762"
 	},
 	"ads": {
-		"ad_status": "1",
+		"ad_status": "0",
 		"ad_type": "admob",
 		"backup_ads": "none",
-		"admob_publisher_id": "pub-3940256099942544",
-		"admob_app_id": "ca-app-pub-3940256099942544~3347511713",
-		"admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
-		"admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
-		"admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
-		"admob_app_open_ad_unit_id": "ca-app-pub-3940256099942544/3419835294",
+		"admob_publisher_id": "",
+		"admob_app_id": "",
+		"admob_banner_unit_id": "",
+		"admob_interstitial_unit_id": "",
+		"admob_native_unit_id": "",
+		"admob_app_open_ad_unit_id": "",
 		"ad_manager_banner_unit_id": "/6499/example/banner",
 		"ad_manager_interstitial_unit_id": "/6499/example/interstitial",
 		"ad_manager_native_unit_id": "/6499/example/native",
@@ -54,7 +54,7 @@
 	},
 	"labels": [
 		{
-			"term": "Business",
+			"term": "قطر",
 			"image": "https://i.imgur.com/DqQrnm0.png"
 		},
 		{
