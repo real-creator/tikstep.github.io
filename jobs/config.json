@@ -16,12 +16,12 @@
 		"show_post_header": "true",
 		"show_post_list_short_description": "true",
 		"show_post_date": "true",
-		"show_related_post": "true",
+		"show_related_post": "false",
 		"open_link_inside_app": "false"
 	},
 	"notification": {
 		"fcm_notification_topic": "blogger_news_app_topic",
-		"onesignal_app_id": "0855da51-0ba7-45dc-b790-156c615df762"
+		"onesignal_app_id": ""
 	},
 	"ads": {
 		"ad_status": "0",
