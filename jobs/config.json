@@ -20,7 +20,7 @@
 		"open_link_inside_app": "false"
 	},
 	"notification": {
-		"fcm_notification_topic": "blogger_news_app_topic",
+		"fcm_notification_topic": "",
 		"onesignal_app_id": ""
 	},
 	"ads": {
@@ -38,7 +38,7 @@
 		"ad_manager_native_unit_id": "/6499/example/native",
 		"ad_manager_app_open_ad_unit_id": "/6499/example/app-open",
 		"startapp_app_id": "0",
-		"unity_game_id": "4089993",
+		"unity_game_id": "",
 		"unity_banner_placement_id": "banner",
 		"unity_interstitial_placement_id": "video",
 		"applovin_banner_ad_unit_id": "0",
