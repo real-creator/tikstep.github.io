@@ -5,11 +5,11 @@
 	},
 	"app": {
 		"status": "1",
-		"more_apps_url": "https://play.google.com/store/apps/developer?id=Solodroid",
-		"redirect_url": "",
-		"privacy_policy_url": "https://sites.google.com/view/blogger-news-app-privacy",
-		"publisher_info_url": "https://sites.google.com/view/blogger-news-app-publisher",
-		"terms_conditions_url": "https://sites.google.com/view/blogger-news-app-terms",
+		"more_apps_url": "https://qatar-jobs1111.blogspot.com/",
+		"redirect_url": "https://qatar-jobs1111.blogspot.com/",
+		"privacy_policy_url": "https://9mod.club/jobs/privacy/",
+		"publisher_info_url": "https://qatar-jobs1111.blogspot.com/",
+		"terms_conditions_url": "https://9mod.club/jobs/terms/",
 		"display_page_menu": "false",
 		"display_view_on_site_menu": "true",
 		"custom_label_list": "false",
@@ -20,7 +20,7 @@
 		"open_link_inside_app": "false"
 	},
 	"notification": {
-		"fcm_notification_topic": "",
+		"fcm_notification_topic": "وظائف قطر يوميا",
 		"onesignal_app_id": ""
 	},
 	"ads": {
