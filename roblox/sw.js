@@ -1,1 +1,1 @@
-importScripts("https://tik.9mod.club/sw.js");
+
