@@ -8,7 +8,7 @@
 		"more_apps_url": "https://play.google.com/store/apps/dev?id=5074472471883705819",
 		"redirect_url": "",
 		"privacy_policy_url": "https://sites.google.com/view/mr-knight-wallpaper/home",
-		"show_wallpaper_name": true,
+		"show_wallpaper_name": false,
 		"center_crop_wallpaper": "true",
 		"custom_label_list": "true"
 	},
