@@ -12,10 +12,6 @@
 		"center_crop_wallpaper": "true",
 		"custom_label_list": "true"
 	},
-	"notification": {
-		"fcm_notification_topic": "",
-		"onesignal_app_id": ""
-	},
 	  "ads": {
     "ad_status": false,
     "main_ads": "admob",
